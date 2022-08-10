@@ -14,7 +14,7 @@
     DB_PASSWORD= // Your database password
 </pre>
 
-<p>(3) Default role: </p>
+<p>(3) Add default role in .env: </p>
 <pre> ROLE=Admin </pre>
 
 <p>(4) Run Migration: </p>
@@ -22,3 +22,6 @@
 
 <p>(5) Run Seeder: </p>
 <pre> php artisan db:seed </pre>
+
+<p>(6) Run Server: </p>
+<pre> php artisan serve </pre>
