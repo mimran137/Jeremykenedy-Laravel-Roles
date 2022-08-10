@@ -17,11 +17,14 @@
 <p>(3) Add default role in .env: </p>
 <pre> ROLE=Admin </pre>
 
-<p>(4) Run Migration: </p>
+<p>(4) Generate a new application key </p>
+<pre> php artisan key:generate </pre>
+
+<p>(5) Run Migration: </p>
 <pre> php artisan migrate </pre>
 
-<p>(5) Run Seeder: </p>
+<p>(6) Run Seeder: </p>
 <pre> php artisan db:seed </pre>
 
-<p>(6) Run Server: </p>
+<p>(7) Run Server: </p>
 <pre> php artisan serve </pre>
