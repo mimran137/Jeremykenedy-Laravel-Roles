@@ -2,5 +2,23 @@
 
 ## About Jeremykenedy Installation
 
-<p>Take Clone</p>
+<p>(1) Take Clone: </p>
 <pre> git clone https://github.com/mimran137/Jeremykenedy-Laravel-Roles.git </pre>
+<pre> cd Jeremykenedy-Laravel-Roles </pre>
+<pre> composer install </pre>
+
+<p>(2) Create database & update .env file: </p>
+<pre>
+    DB_DATABASE= // Your database name
+    DB_USERNAME= // Your database username
+    DB_PASSWORD= // Your database password
+</pre>
+
+<p>(3) Default role: </p>
+<pre> ROLE=Admin </pre>
+
+<p>(4) Run Migration: </p>
+<pre> php artisan migrate </pre>
+
+<p>(5) Run Seeder: </p>
+<pre> php artisan db:seed </pre>
